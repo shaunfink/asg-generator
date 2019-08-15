@@ -1,0 +1,10 @@
+---
+applications:
+- name: asg-generator-frontend
+  path: ./client
+  buildpacks:
+  - nodejs_buildpack
+- name: asg-generator-backend
+  path: ./server
+  buildpacks:
+  - python_buildpack

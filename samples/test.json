@@ -1,0 +1,26 @@
+[
+    {
+      "description": "Testing ASG's 01", 
+      "destination": "127.0.0.1", 
+      "id": "9122a819cfda444583dff5c914242545", 
+      "log": true, 
+      "ports": "8080-8090", 
+      "protocol": "tcp"
+    }, 
+    {
+      "description": "Testing ASG's 02", 
+      "destination": "127.0.0.1-127.0.0.9", 
+      "id": "6290cb4ffecb4052bb1992198c44e5d6", 
+      "log": true, 
+      "ports": "9000-9050", 
+      "protocol": "tcp"
+    }, 
+    {
+      "description": "Testing ASG's 03", 
+      "destination": "169.87.54.0/24", 
+      "id": "ddc85129d0b942d386fd4380ada55627", 
+      "log": true, 
+      "ports": "6000", 
+      "protocol": "tcp"
+    }
+]
